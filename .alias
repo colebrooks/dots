@@ -1,0 +1,7 @@
+alias get_idf4='. $HOME/esp/esp-idf-v4.4.8/export.sh'
+alias get_idf5='. $HOME/esp/esp-idf-v5.3/export.sh'
+alias adbcp='adb logcat -c; adb logcat | grep python'
+alias pc='sudo picocom -b 115200 /dev/ttyUSB0'
+alias op='sudo netstat -tlp'
+alias grep='grep --color=always'
+alias dots='/usr/bin/git --git-dir="$HOME/.dots/" --work-tree="$HOME"'
